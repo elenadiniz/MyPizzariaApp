@@ -15,6 +15,11 @@
 		B4A2F30D265BF89900542B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A2F30B265BF89900542B8A /* LaunchScreen.storyboard */; };
 		B4A2F318265BF89900542B8A /* MyPizzariaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2F317265BF89900542B8A /* MyPizzariaAppTests.swift */; };
 		B4A2F323265BF89A00542B8A /* MyPizzariaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2F322265BF89A00542B8A /* MyPizzariaAppUITests.swift */; };
+		B4ADE769265C038C009B11EA /* listaPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE768265C038C009B11EA /* listaPizza.swift */; };
+		B4ADE76F265C0BA3009B11EA /* pizzaSelecionada.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE76E265C0BA3009B11EA /* pizzaSelecionada.swift */; };
+		B4ADE771265C1166009B11EA /* checkoutPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADE770265C1166009B11EA /* checkoutPizza.swift */; };
+		B4BC55DA265C523E0035DB13 /* pizzaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BC55D8265C523E0035DB13 /* pizzaCell.swift */; };
+		B4BC55DB265C523E0035DB13 /* pizzaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BC55D9265C523E0035DB13 /* pizzaCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		B4A2F31E265BF89A00542B8A /* MyPizzariaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPizzariaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A2F322265BF89A00542B8A /* MyPizzariaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPizzariaAppUITests.swift; sourceTree = "<group>"; };
 		B4A2F324265BF89A00542B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4ADE768265C038C009B11EA /* listaPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaPizza.swift; sourceTree = "<group>"; };
+		B4ADE76E265C0BA3009B11EA /* pizzaSelecionada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaSelecionada.swift; sourceTree = "<group>"; };
+		B4ADE770265C1166009B11EA /* checkoutPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkoutPizza.swift; sourceTree = "<group>"; };
+		B4BC55D8265C523E0035DB13 /* pizzaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaCell.swift; sourceTree = "<group>"; };
+		B4BC55D9265C523E0035DB13 /* pizzaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pizzaCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				B4A2F302265BF89600542B8A /* SceneDelegate.swift */,
 				B4A2F304265BF89600542B8A /* ViewController.swift */,
 				B4A2F306265BF89600542B8A /* Main.storyboard */,
+				B4ADE770265C1166009B11EA /* checkoutPizza.swift */,
+				B4ADE76E265C0BA3009B11EA /* pizzaSelecionada.swift */,
+				B4ADE768265C038C009B11EA /* listaPizza.swift */,
+				B4BC55D8265C523E0035DB13 /* pizzaCell.swift */,
+				B4BC55D9265C523E0035DB13 /* pizzaCell.xib */,
 				B4A2F309265BF89900542B8A /* Assets.xcassets */,
 				B4A2F30B265BF89900542B8A /* LaunchScreen.storyboard */,
 				B4A2F30E265BF89900542B8A /* Info.plist */,
@@ -231,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BC55DB265C523E0035DB13 /* pizzaCell.xib in Resources */,
 				B4A2F30D265BF89900542B8A /* LaunchScreen.storyboard in Resources */,
 				B4A2F30A265BF89900542B8A /* Assets.xcassets in Resources */,
 				B4A2F308265BF89600542B8A /* Main.storyboard in Resources */,
@@ -258,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4ADE771265C1166009B11EA /* checkoutPizza.swift in Sources */,
 				B4A2F305265BF89600542B8A /* ViewController.swift in Sources */,
 				B4A2F301265BF89600542B8A /* AppDelegate.swift in Sources */,
+				B4ADE769265C038C009B11EA /* listaPizza.swift in Sources */,
 				B4A2F303265BF89600542B8A /* SceneDelegate.swift in Sources */,
+				B4BC55DA265C523E0035DB13 /* pizzaCell.swift in Sources */,
+				B4ADE76F265C0BA3009B11EA /* pizzaSelecionada.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.MyPizzariaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.MyPizzariaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
