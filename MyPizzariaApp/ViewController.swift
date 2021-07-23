@@ -21,7 +21,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        super.viewDidLoad()
         self.emailTextField.delegate = self
         self.passwordTextField.delegate = self
         self.loginLabel.text = labelText.self
